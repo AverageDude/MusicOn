@@ -1,0 +1,66 @@
+body {
+	background-color: #000;
+	color: #fff;
+}
+
+
+/* CSS-правила для Header */
+.header-container {
+	display: flex;
+	justify-content: space-between;
+
+	margin-top: 50px;
+}
+
+.logo-container {
+	display: flex;
+}
+
+.logo-caption {
+	font-size: 40px;
+	font-weight: normal;
+	text-transform: uppercase;
+	
+	margin: 0;
+}
+
+.logo-img {
+	background-color: #000;
+}
+
+.menu {
+	margin-top: 20px;
+}
+
+.menu-list {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.menu-list-item {
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 0 30px;
+}
+
+.menu-list-item:hover {
+	color: #ae32c8;
+}
+
+.profile-container {
+	display: flex;
+}
+
+.profile-img {
+	margin-right: 5px;
+}
+
+.profile-container {
+	margin-top: 20px;
+}
+
+.profile-caption {
+	font-size: 20px;
+}
