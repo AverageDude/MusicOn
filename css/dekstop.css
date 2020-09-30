@@ -7,13 +7,27 @@ body {
 /* CSS-правила для Header */
 .header-container {
 	display: flex;
+
+	max-width: 1660px;
+
 	justify-content: space-between;
 
 	margin-top: 50px;
+	padding: 0 50px;
+	
 }
 
 .logo-container {
 	display: flex;
+	margin-right: 70px;
+
+	height: 55px;
+}
+
+.logo-img {
+	background-color: #000;
+
+	height: 55px;
 }
 
 .logo-caption {
@@ -24,9 +38,7 @@ body {
 	margin: 0;
 }
 
-.logo-img {
-	background-color: #000;
-}
+
 
 .menu {
 	margin-top: 20px;
@@ -53,8 +65,9 @@ body {
 	display: flex;
 }
 
-.profile-img {
-	margin-right: 5px;
+.profile-picture {
+	margin-right: 10px;
+	margin-top: -15px;
 }
 
 .profile-container {
@@ -64,3 +77,136 @@ body {
 .profile-caption {
 	font-size: 20px;
 }
+
+
+
+/* CSS-правила для Learn More контейнера*/
+.recomendation-container {
+	display: flex;
+
+	margin-top: 70px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.learn-more-container {
+	width: 50%;
+}
+
+.tags-list-item {
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	margin-right: 25px;
+	padding: 5px 15px;
+
+	
+	border-radius: 20px;
+}
+
+.tag-week-top {
+	border: 1px solid #347d42;
+	color: #40ea12;
+}
+
+.tag-hot-clip {
+	border: 1px solid #938b48;
+	color: #c2b85b;
+}
+
+.tag-creators-choice {
+	border: 1px solid #485193;
+	color: #485193;
+}
+
+
+.learn-more-caption-text {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 55px;
+
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+
+.learn-more-button {
+	display: block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+
+	background-color: #be2cdd;
+
+	border-radius: 50px;
+
+}
+
+.learn-more-button-text {
+	margin: 0;
+	padding: 15px 40px;
+
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold;
+
+	color: #fff;
+}
+
+.choice-caption {
+	margin-top: 200px;
+}
+
+.title-text {
+	text-transform: uppercase;
+
+	font-weight: bold;
+	font-size: 30px;
+
+	color: #fff;
+
+	margin: 0;
+}
+
+.title-text-singer {
+	font-size: 35px;
+
+	margin-top: 15px;
+}
+
+.choice-caption-the-chart {
+	margin: 0;
+
+	font-size: 18px;
+}
+/* CSS-правила для Main */
+.playlist-container {
+	display: flex;
+
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding: 0 50px;
+}
+
+.music-container {
+	height: 350px;
+	width: 20%;
+}
+
+.album-img {
+	height: 350px;
+	width: 100%;
+}
+
+.music-caption {
+	margin-top: 15px;
+
+	text-transform: uppercase;
+	font-size: 30px;
+
+	text-align: center;
+}
+
+
